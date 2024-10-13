@@ -1,0 +1,23 @@
+<style>
+
+    header {
+        position: relative;
+    }
+
+    header img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container-header {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+    footer {
+        background-color: blue;
+    }
+
+
+</style>

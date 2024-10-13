@@ -1,0 +1,10 @@
+ RewriteEngine on
+
+
+ rewriteCond %{REQUEST_URI} !^/mvcagency/public/css/styles.css$
+ rewriteCond %{REQUEST_URI} !^/mvcagency/public/css/mystyle.css$
+
+ # RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
+  RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ index.php?url=$1 [L,QSA]
+
+
